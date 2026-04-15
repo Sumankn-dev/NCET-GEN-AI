@@ -3,7 +3,7 @@ from groq import Groq
 
 st.set_page_config("EVO.AI Bot", layout="wide")
 st.title("EVO.AI - Content Generator")
-st.image("EVO_chatbot_logo.jpg")
+st.image("EVO_chatbot_logo.jpg",width = 300 )
 
 client = Groq(api_key=st.secrets["GROQ_API_KEY"])
 #Get Product Name and Audience for that product
