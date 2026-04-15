@@ -3,7 +3,7 @@ from groq import Groq
 
 st.set_page_config("SumanAI Bot", layout="wide")
 st.title("SumanAI - Content Generator")
-st.image("IMG_1714.JPG")
+st.image("ai_bot_logo.jpg")
 
 client = Groq(api_keys=st.secrets["GROQ_API_KEY"])
 #Get Product Name and Audience for that product
