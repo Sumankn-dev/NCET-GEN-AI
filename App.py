@@ -1,9 +1,9 @@
 import streamlit as st
 from groq import Groq
 
-st.set_page_config("SumanAI Bot", layout="wide")
-st.title("SumanAI - Content Generator")
-st.image("ai_bot_logo.jpg")
+st.set_page_config("EVO.AI Bot", layout="wide")
+st.title("EVO.AI - Content Generator")
+st.image("EVO_chatbot_logo.jpg")
 
 client = Groq(api_key=st.secrets["GROQ_API_KEY"])
 #Get Product Name and Audience for that product
